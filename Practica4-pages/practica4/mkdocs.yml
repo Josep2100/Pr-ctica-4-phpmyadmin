@@ -1,0 +1,19 @@
+site_name: Mi documentación
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy    
+markdown_extensions:
+  - attr_list
+  - md_in_html 
+  - admonition 
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+    
